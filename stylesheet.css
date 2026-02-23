@@ -74,6 +74,15 @@ a:hover {
   text-decoration: none;
 }
 
+#open-wechat {
+  color: #1772d0;
+}
+
+#open-wechat:hover,
+#open-wechat:focus {
+  color: #f09228;
+}
+
 body,
 td,
 th,
@@ -102,6 +111,31 @@ h2 {
   font-weight: 700;
 }
 
+.news-inline-icon {
+  margin: 0 2px;
+  font-size: 0.95em;
+}
+
+.news-icon-gold {
+  color: #d4a017;
+}
+
+.news-icon-orange {
+  color: #f08a24;
+}
+
+.news-icon-green {
+  color: #2ca24f;
+}
+
+.news-icon-red {
+  color: #d64545;
+}
+
+.news-icon-blue {
+  color: #2b7bd8;
+}
+
 .name {
   padding-top: 20px;
   margin: 0;
@@ -119,9 +153,21 @@ h2 {
   width: 160px;
   height: 160px;
   position: absolute;
+  opacity: 0;
+  pointer-events: none;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
+}
+
+.media-row:hover .two,
+.media-row:focus-within .two {
+  opacity: 1;
+}
+
+.one img,
+.one video {
+  display: block;
 }
 
 .fade {
@@ -186,5 +232,12 @@ span.highlight {
   }
   .name {
     font-size: 28px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .two,
+  .fade {
+    transition: none;
   }
 }

@@ -7,6 +7,7 @@
 
     <meta name="author" content="Wenhao Yu">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Wenhao Yu's academic homepage. Research in AI for robotics, learning-based robot decision-making and planning, autonomous driving, and embodied AI.">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
@@ -36,44 +37,28 @@
                 </p> -->
               </td>
               <!-- <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/me_self.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/me_self.jpg" class="hoverZoomLink"></a>
+                <a href="images/me_self.jpg"><img style="width:100%;max-width:100%;height:auto;aspect-ratio:1 / 1;object-fit: cover; border-radius: 50%; display:block;" alt="profile photo" src="images/me_self_800.jpg" class="hoverZoomLink"></a>
               </td> -->
               <td style="padding:2.5%;width:30%;max-width:40%;min-width: 250px;">
-                <img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/me_self.jpg" class="hoverZoomLink">
+                <img style="width:100%;max-width:100%;height:auto;aspect-ratio:1 / 1;object-fit: cover; border-radius: 50%; display:block;" alt="profile photo" src="images/me_self_800.jpg" class="hoverZoomLink" width="400" height="400" loading="eager" decoding="async" fetchpriority="high">
                 <div style="text-align:center;margin-top:10%;" class="text-center">
-                  <a style="margin-right: 5px;" href="mailto:wenhaoyu@mail.ustc.edu.cn" class="fa-solid fa-envelope fa-xl"></a>
-                  <a style="margin-right: 5px;" href="https://github.com/WenhowYu/" class="fa-brands fa-github fa-xl"></a>
-                  <a style="margin-right: 5px;" href="https://scholar.google.com/citations?user=x7XdmHEAAAAJ&hl=en" class="fas fa-graduation-cap fa-xl"></a>
-                  <a style="margin-right: 5px;" href="file/resume25.pdf" class="fab fa-file fa-xl"></a>
-                  <a style="margin-right: 5px;" href="https://x.com/OaphisKvbx00iEF" class="fab fa-x-twitter fa-xl"></a>
-                  <a style="margin-right: 0px;" href="javascript:void(0)" onclick="openWeChatModal()" class="fab fa-weixin fa-xl"></a>
+                  <a style="margin-right: 5px;" href="mailto:wenhaoyu@mail.ustc.edu.cn" aria-label="Email" class="fa-solid fa-envelope fa-xl"></a>
+                  <a style="margin-right: 5px;" href="https://github.com/WenhowYu/" aria-label="GitHub" class="fa-brands fa-github fa-xl"></a>
+                  <a style="margin-right: 5px;" href="https://scholar.google.com/citations?user=x7XdmHEAAAAJ&hl=en" aria-label="Google Scholar" class="fas fa-graduation-cap fa-xl"></a>
+                  <a style="margin-right: 5px;" href="file/resume25.pdf" aria-label="Resume" class="fab fa-file fa-xl"></a>
+                  <a style="margin-right: 5px;" href="https://x.com/OaphisKvbx00iEF" aria-label="X (Twitter)" class="fab fa-x-twitter fa-xl"></a>
+                  <button type="button" id="open-wechat" aria-label="WeChat QR Code" style="margin-right: 0px; background: none; border: 0; padding: 0; cursor: pointer;">
+                    <span class="fab fa-weixin fa-xl" aria-hidden="true"></span>
+                  </button>
                 </div>
 
                 <!-- WeChat image function -->
                 <div id="WeChatModal" class="modal" style="display: none;">
                   <div class="modal-content" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000;">
-                    <span class="close" onclick="closeWeChatModal()" style="position: absolute; top: 10px; right: 15px; cursor: pointer; font-size: 25px;">&times;</span>
-                    <img src="images/wechat.jpg" alt="WeChat QR Code" style="width: 100%;">
+                    <span class="close" style="position: absolute; top: 10px; right: 15px; cursor: pointer; font-size: 25px;">&times;</span>
+                    <img src="images/wechat.jpg" alt="WeChat QR Code" style="width: 100%;" loading="lazy" decoding="async">
                   </div>
                 </div>
-                
-                <script>
-                  function openWeChatModal() {
-                    document.getElementById("WeChatModal").style.display = "block";
-                  }
-                  function closeWeChatModal() {
-                    document.getElementById("WeChatModal").style.display = "none";
-                  }
-                  window.onload = function() {
-                    document.getElementById("WeChatModal").style.display = "none";
-                  };
-                  window.onclick = function(event) {
-                    var modal = document.getElementById("WeChatModal");
-                    if (event.target == modal) {
-                      modal.style.display = "none";
-                    }
-                  }
-                </script>
               </td>
             </tr>
           </tbody></table>
@@ -81,12 +66,13 @@
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>News</h2>
-                <p>&bull; <strong>[2026.1]</strong> Our paper is accepted by ICRA 2026.</p>
-                <p>&bull; <strong>[2025.12]</strong> I am looking for a research intern on embodied AI and ML. If you have any related needs, please contact me. Thank you very much!</p>
-                <p>&bull; <strong>[2025.7]</strong> Our paper is accepted by ACM MM 2025.</p>
-                <p>&bull; <strong>[2025.4]</strong> Our paper is accepted by RSS 2025.</p>
-                <p>&bull; <strong>[2024.6]</strong> Our paper is accepted by IROS 2024. Looking forward to seeing you in Abu Dhabi, UAE.</p>
-                <p>&bull; <strong>[2024.1]</strong> Our paper is accepted by ICRA 2024. Looking forward to seeing you in Yokohama, Japan.</p>
+                <p>&bull; <strong>[2026.2]</strong> Our paper is accepted to <i class="fa-solid fa-trophy news-inline-icon news-icon-gold" aria-hidden="true"></i> CVPR 2026. Congratulations to Guanting <i class="fa-solid fa-hands-clapping news-inline-icon news-icon-orange" aria-hidden="true"></i>.</p>
+                <p>&bull; <strong>[2026.1]</strong> Our paper is accepted by <i class="fa-solid fa-circle-check news-inline-icon news-icon-green" aria-hidden="true"></i> ICRA 2026.</p>
+                <p>&bull; <strong>[2025.12]</strong> I am looking for a research intern <i class="fa-solid fa-bullhorn news-inline-icon news-icon-red" aria-hidden="true"></i> on embodied AI and ML. If you have any related needs, please contact me. Thank you very much!</p>
+                <p>&bull; <strong>[2025.7]</strong> Our paper is accepted by <i class="fa-solid fa-circle-check news-inline-icon news-icon-green" aria-hidden="true"></i> ACM MM 2025.</p>
+                <p>&bull; <strong>[2025.4]</strong> Our paper is accepted by <i class="fa-solid fa-circle-check news-inline-icon news-icon-green" aria-hidden="true"></i> RSS 2025.</p>
+                <p>&bull; <strong>[2024.6]</strong> Our paper is accepted by <i class="fa-solid fa-circle-check news-inline-icon news-icon-green" aria-hidden="true"></i> IROS 2024. Looking forward to seeing you in <i class="fa-solid fa-location-dot news-inline-icon news-icon-blue" aria-hidden="true"></i> Abu Dhabi, UAE.</p>
+                <p>&bull; <strong>[2024.1]</strong> Our paper is accepted by <i class="fa-solid fa-circle-check news-inline-icon news-icon-green" aria-hidden="true"></i> ICRA 2024. Looking forward to seeing you in <i class="fa-solid fa-location-dot news-inline-icon news-icon-blue" aria-hidden="true"></i> Yokohama, Japan.</p>
               </td>
             </tr>
           </tbody></table>
@@ -103,14 +89,14 @@
     
     <!-- Add new publication here -->
 
-    <tr onmouseout="dynahmrc_stop()" onmouseover="dynahmrc_start()">
+    <tr class="media-row">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <img src='images/dynahmrc/overview.png' width=100%>
+          <img src='images/dynahmrc/overview.png' width=100% loading="lazy" decoding="async">
         </div>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://wenhowyu.github.io">
+        <a href="https://dynahmrc.github.io">
           <span class="papertitle">DynaHMRC: Decentralized Heterogeneous Multi-Robot Collaboration for Dynamic Tasks with Large Language Models</span>
         </a>
         <br>
@@ -129,7 +115,7 @@
         /
         code
         /
-        <a href="https://wenhowyu.github.io">arXiv</a>
+        arXiv
         <p></p>
         <p>
           DynaHMRC is a decentralized LLM-driven multi-robot framework that overcomes centralized context limits, adapts to dynamic tasks, and boosts domain-specific competence for scalable, efficient collaboration.
@@ -137,10 +123,10 @@
       </td>
     </tr>
 
-    <tr onmouseout="calib_stop()" onmouseover="calib_start()">
+    <tr class="media-row">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <img src='images/calibworkflow/CalibWorkflow.png' width=100%>
+          <img src='images/calibworkflow/CalibWorkflow.png' width=100% loading="lazy" decoding="async">
         </div>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
@@ -171,25 +157,15 @@
       </td>
     </tr>
     
-    <tr onmouseout="stdarm_stop()" onmouseover="stdarm_start()">
+    <tr class="media-row">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='stdarm_image'><video  width=100% muted autoplay loop>
+          <div class="two"><video width=100% muted autoplay loop preload="none" playsinline>
           <source src="images/stdarm/STDarm.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/stdarm/STDarm.png' width=100%>
+          <img src='images/stdarm/STDarm.png' width=100% loading="lazy" decoding="async">
         </div>
-        <script type="text/javascript">
-          function stdarm_start() {
-            document.getElementById('stdarm_image').style.opacity = "1";
-          }
-
-          function stdarm_stop() {
-            document.getElementById('stdarm_image').style.opacity = "0";
-          }
-          stdarm_stop()
-        </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
         <a href="https://arxiv.org/abs/2504.18792">
@@ -219,25 +195,15 @@
       </td>
     </tr>
 
-    <tr onmouseout="mhrc_stop()" onmouseover="mhrc_start()">
+    <tr class="media-row">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='mhrc_image'><video  width=100% muted autoplay loop>
+          <div class="two"><video width=100% muted autoplay loop preload="none" playsinline>
           <source src="images/mhrc/mhrc_video.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/mhrc/overview.png' width=100%>
+          <img src='images/mhrc/overview.png' width=100% loading="lazy" decoding="async">
         </div>
-        <script type="text/javascript">
-          function mhrc_start() {
-            document.getElementById('mhrc_image').style.opacity = "1";
-          }
-
-          function mhrc_stop() {
-            document.getElementById('mhrc_image').style.opacity = "0";
-          }
-          mhrc_stop()
-        </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
         <a href="https://arxiv.org/abs/2409.16030/">
@@ -265,25 +231,15 @@
       </td>
     </tr>
 
-    <tr onmouseout="ldp_stop()" onmouseover="ldp_start()">
+    <tr class="media-row">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='ldp_image'><video  width=100% muted autoplay loop>
+          <div class="two"><video width=100% muted autoplay loop preload="none" playsinline>
           <source src="images/ldp/LDP_video.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/ldp/ldp.png' width=100%>
+          <img src='images/ldp/ldp.png' width=100% loading="lazy" decoding="async">
         </div>
-        <script type="text/javascript">
-          function ldp_start() {
-            document.getElementById('ldp_image').style.opacity = "1";
-          }
-
-          function ldp_stop() {
-            document.getElementById('ldp_image').style.opacity = "0";
-          }
-          ldp_stop()
-        </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
         <a href="https://arxiv.org/abs/2407.01950/">
@@ -312,25 +268,15 @@
       </td>
     </tr>
 
-    <tr onmouseout="pathrl_stop()" onmouseover="pathrl_start()">
+    <tr class="media-row">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='pathrl_image'><video  width=100% muted autoplay loop>
+          <div class="two"><video width=100% muted autoplay loop preload="none" playsinline>
           <source src="images/pathrl/PathRL_video.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/pathrl/overview.png' width=100%>
+          <img src='images/pathrl/overview.png' width=100% loading="lazy" decoding="async">
         </div>
-        <script type="text/javascript">
-          function pathrl_start() {
-            document.getElementById('pathrl_image').style.opacity = "1";
-          }
-
-          function pathrl_stop() {
-            document.getElementById('pathrl_image').style.opacity = "0";
-          }
-          pathrl_stop()
-        </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
         <a href="https://arxiv.org/abs/2310.13295/">
@@ -353,7 +299,7 @@
         <a href="https://arxiv.org/abs/2310.13295">arXiv</a>
         <p></p>
         <p>
-          a novel end-to-end DRL-based method, PathRL, that directly outputs navigation paths without relying on the supervised learning paradigm and iscompetent for a variety of complex scenarios.
+          a novel end-to-end DRL-based method, PathRL, that directly outputs navigation paths without relying on the supervised learning paradigm and is competent for a variety of complex scenarios.
         </p>
       </td>
     </tr>
@@ -369,25 +315,15 @@
           </tbody></table>
           <table width="100%" align="center" border="0" cellpadding="20"><tbody>
           
-            <tr onmouseout="real_stop()" onmouseover="real_start()">
+            <tr class="media-row">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='pathrl_image'><video  width=100% muted autoplay loop>
+                  <div class="two"><video width=100% muted autoplay loop preload="none" playsinline>
                   <source src="file/real_video.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                   </video></div>
-                  <img src='file/real_video.png' width=100%>
+                  <img src='file/real_video.png' width=100% loading="lazy" decoding="async">
                 </div>
-                <script type="text/javascript">
-                  function real_start() {
-                    document.getElementById('pathrl_image').style.opacity = "1";
-                  }
-        
-                  function real_stop() {
-                    document.getElementById('pathrl_image').style.opacity = "0";
-                  }
-                  real_stop()
-                </script>
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
                 <a href="file/real_video.mp4">
@@ -429,5 +365,65 @@
         </td>
       </tr>
     </table>
+    <script>
+      (function () {
+        var modal = document.getElementById("WeChatModal");
+        var openBtn = document.getElementById("open-wechat");
+        var closeBtn = modal ? modal.querySelector(".close") : null;
+
+        function openWeChatModal() {
+          if (modal) modal.style.display = "block";
+        }
+
+        function closeWeChatModal() {
+          if (modal) modal.style.display = "none";
+        }
+
+        if (openBtn) {
+          openBtn.addEventListener("click", openWeChatModal);
+        }
+
+        if (closeBtn) {
+          closeBtn.addEventListener("click", closeWeChatModal);
+        }
+
+        document.addEventListener("click", function (event) {
+          if (event.target === modal) {
+            closeWeChatModal();
+          }
+        });
+
+        document.addEventListener("keydown", function (event) {
+          if (event.key === "Escape") {
+            closeWeChatModal();
+          }
+        });
+
+        var rows = document.querySelectorAll(".media-row");
+        rows.forEach(function (row) {
+          var video = row.querySelector(".two video");
+          if (!video) return;
+
+          function playVideo() {
+            var playPromise = video.play();
+            if (playPromise && typeof playPromise.catch === "function") {
+              playPromise.catch(function () {});
+            }
+          }
+
+          function pauseVideo() {
+            video.pause();
+            video.currentTime = 0;
+          }
+
+          row.addEventListener("mouseenter", playVideo);
+          row.addEventListener("mouseleave", pauseVideo);
+          row.addEventListener("focusin", playVideo);
+          row.addEventListener("focusout", pauseVideo);
+
+          pauseVideo();
+        });
+      })();
+    </script>
   </body>
 </html>
