@@ -111,31 +111,6 @@ h2 {
   font-weight: 700;
 }
 
-.news-inline-icon {
-  margin: 0 2px;
-  font-size: 0.95em;
-}
-
-.news-icon-gold {
-  color: #d4a017;
-}
-
-.news-icon-orange {
-  color: #f08a24;
-}
-
-.news-icon-green {
-  color: #2ca24f;
-}
-
-.news-icon-red {
-  color: #d64545;
-}
-
-.news-icon-blue {
-  color: #2b7bd8;
-}
-
 .name {
   padding-top: 20px;
   margin: 0;
