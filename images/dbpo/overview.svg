@@ -49,16 +49,17 @@
   <circle cx="724" cy="304" r="8" fill="#58b368"/>
   <circle cx="766" cy="238" r="8" fill="#58b368"/>
   <circle cx="810" cy="254" r="8" fill="#58b368"/>
-  <text x="720" y="342" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#0f5132">105.2 Hz real-world control</text>
-  <text x="720" y="370" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#6d7480">fast deployment, online improvement</text>
+  <text x="720" y="334" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0f5132">105.2 Hz</text>
+  <text x="720" y="360" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0f5132">real-world control</text>
+  <text x="720" y="382" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#6d7480">fast online improvement</text>
 
   <path d="M 306 259 L 321 259" stroke="#355C7D" stroke-width="4" marker-end="url(#arrow)"/>
   <path d="M 576 259 L 591 259" stroke="#355C7D" stroke-width="4" marker-end="url(#arrow)"/>
 
   <g transform="translate(75 430)">
     <rect x="0" y="0" width="750" height="86" rx="24" fill="#172033"/>
-    <text x="88" y="54" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#ffffff">100×</text>
-    <text x="200" y="54" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#dfe8ff">faster inference than multi-step diffusion-style policies</text>
-    <text x="610" y="54" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#9be7a7">ACM MM 2026</text>
+    <text x="150" y="54" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" fill="#ffffff">100× faster</text>
+    <text x="390" y="54" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#dfe8ff">1 NFE deployment</text>
+    <text x="620" y="54" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#9be7a7">ACM MM 2026</text>
   </g>
 </svg>
