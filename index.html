@@ -1,506 +1,496 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <title>Wenhao Yu</title>
-
-    <meta name="author" content="Wenhao Yu">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Wenhao Yu's academic homepage. Research in AI for robotics, learning-based robot decision-making and planning, autonomous driving, and embodied AI.">
+    <meta name="author" content="Wenhao Yu">
+    <meta name="description" content="Wenhao Yu is a PhD candidate at USTC researching robot learning, decision-making, planning, autonomous driving, and embodied AI.">
+    <meta name="theme-color" content="#f7f8fa">
+
+    <title>Wenhao Yu · Robot Learning Researcher</title>
+
+    <link rel="canonical" href="https://wenhowyu.github.io/">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
   </head>
 
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Wenhao Yu
-                </p>
-                <p>
-                  I am currently pursuing a PhD at University of Science and Technology of China (<a href="https://en.ustc.edu.cn/">USTC</a>) advised by Prof. <a href="http://staff.ustc.edu.cn/~yanyongz/">Yanyong Zhang</a>. My M.S. is also from USTC and I was advised by Prof. <a href="http://staff.ustc.edu.cn/~jianmin/">Jianmin Ji</a>. Before that, I received my Bachelor's degree in Computer Science from Qingdao University (<a href="https://english.qdu.edu.cn/">QDU</a>) in 2021.
-                </p>
-                <p>
-                  I'm broadly interested in AI for robotics and more focused on learning-based robot decision-making and planning: Robot Navigation, Autonomous Driving, and Embodied AI.
-                </p>
-                <!-- <p style="text-align:center">
-                  <a href="wenhaoyu@mail.ustc.edu.cn">Email</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=x7XdmHEAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/WenhaoYu1998/">Github</a>
-                </p> -->
-              </td>
-              <!-- <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/me_self.jpg"><img style="width:100%;max-width:100%;height:auto;aspect-ratio:1 / 1;object-fit: cover; border-radius: 50%; display:block;" alt="profile photo" src="images/me_self_800.jpg" class="hoverZoomLink"></a>
-              </td> -->
-              <td style="padding:2.5%;width:30%;max-width:40%;min-width: 250px;">
-                <img style="width:100%;max-width:100%;height:auto;aspect-ratio:1 / 1;object-fit: cover; border-radius: 50%; display:block;" alt="profile photo" src="images/me_self_800.jpg" class="hoverZoomLink" width="400" height="400" loading="eager" decoding="async" fetchpriority="high">
-                <div style="text-align:center;margin-top:10%;" class="text-center">
-                  <a style="margin-right: 5px;" href="mailto:wenhaoyu@mail.ustc.edu.cn" aria-label="Email" class="fa-solid fa-envelope fa-xl"></a>
-                  <a style="margin-right: 5px;" href="https://github.com/WenhowYu/" aria-label="GitHub" class="fa-brands fa-github fa-xl"></a>
-                  <a style="margin-right: 5px;" href="https://scholar.google.com/citations?user=x7XdmHEAAAAJ&hl=en" aria-label="Google Scholar" class="fas fa-graduation-cap fa-xl"></a>
-                  <a style="margin-right: 5px;" href="file/resume25.pdf" aria-label="Resume" class="fab fa-file fa-xl"></a>
-                  <a style="margin-right: 5px;" href="https://x.com/OaphisKvbx00iEF" aria-label="X (Twitter)" class="fab fa-x-twitter fa-xl"></a>
-                  <button type="button" id="open-wechat" aria-label="WeChat QR Code" style="margin-right: 0px; background: none; border: 0; padding: 0; cursor: pointer;">
-                    <span class="fab fa-weixin fa-xl" aria-hidden="true"></span>
-                  </button>
-                </div>
+    <header class="site-header">
+      <div class="page-shell header-inner">
+        <a class="wordmark" href="#top" aria-label="Wenhao Yu, home">WY</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+        </nav>
+      </div>
+    </header>
 
-                <!-- WeChat image function -->
-                <div id="WeChatModal" class="modal" style="display: none;">
-                  <div class="modal-content" style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000;">
-                    <span class="close" style="position: absolute; top: 10px; right: 15px; cursor: pointer; font-size: 25px;">&times;</span>
-                    <img src="images/wechat.jpg" alt="WeChat QR Code" style="width: 100%;" loading="lazy" decoding="async">
-                  </div>
-                </div>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>News</h2>
-                <p>&bull; <strong>[2026.7]</strong> Our paper DBPO is accepted to ✅ ACM MM 2026.</p>
-                <p>&bull; <strong>[2026.2]</strong> Our paper is accepted to ✅ CVPR 2026. Congratulations to Guanting 👏.</p>
-                <p>&bull; <strong>[2026.1]</strong> Our paper is accepted by ✅ ICRA 2026.</p>
-                <p>&bull; <strong>[2025.12]</strong> I am looking for a research intern 📣 on embodied AI and ML. If you have any related needs, please contact me. Thank you very much!</p>
-                <p>&bull; <strong>[2025.7]</strong> Our paper is accepted by ✅ ACM MM 2025.</p>
-                <p>&bull; <strong>[2025.4]</strong> Our paper is accepted by ✅ RSS 2025.</p>
-                <p>&bull; <strong>[2024.6]</strong> Our paper is accepted by ✅ IROS 2024. Looking forward to seeing you in 📍 Abu Dhabi, UAE.</p>
-                <p>&bull; <strong>[2024.1]</strong> Our paper is accepted by ✅ ICRA 2024. Looking forward to seeing you in 📍 Yokohama, Japan.</p>
-              </td>
-            </tr>
-          </tbody></table>
-    
-    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-      <tr>
-        <td>
-          <h2>Publications</h2>
-        </td>
-      </tr>
-    </tbody></table>
+    <main id="top" class="page-shell">
+      <section id="about" class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">PhD Candidate · University of Science and Technology of China</p>
+          <h1 id="page-title">Wenhao Yu</h1>
+          <p class="hero-lead">
+            I build learning-based systems that help robots perceive, reason, plan, and act in complex environments.
+          </p>
+          <p class="bio">
+            I am pursuing a PhD at <a href="https://en.ustc.edu.cn/">USTC</a>, advised by
+            Prof. <a href="http://staff.ustc.edu.cn/~yanyongz/">Yanyong Zhang</a>. I also received
+            my M.S. from USTC, advised by Prof. <a href="http://staff.ustc.edu.cn/~jianmin/">Jianmin Ji</a>,
+            and my B.S. in Computer Science from <a href="https://english.qdu.edu.cn/">Qingdao University</a>
+            in 2021.
+          </p>
 
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    
-    <!-- Add new publication here -->
+          <ul class="research-areas" aria-label="Research interests">
+            <li>Robot Learning</li>
+            <li>Decision &amp; Planning</li>
+            <li>Embodied AI</li>
+            <li>Autonomous Driving</li>
+          </ul>
 
-    <tr class="media-row">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/dbpo/overview.svg' width=100% alt="DBPO method comparison and performance overview" loading="lazy" decoding="async">
+          <nav class="profile-links" aria-label="Profile links">
+            <a href="mailto:wenhaoyu@mail.ustc.edu.cn" aria-label="Email Wenhao Yu">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <span>Email</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=x7XdmHEAAAAJ&amp;hl=en" aria-label="Google Scholar profile">
+              <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+              <span>Scholar</span>
+            </a>
+            <a href="https://github.com/WenhowYu/" aria-label="GitHub profile">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="file/resume25.pdf" aria-label="Curriculum vitae">
+              <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+              <span>CV</span>
+            </a>
+            <a href="https://x.com/OaphisKvbx00iEF" aria-label="X profile">
+              <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+              <span>X</span>
+            </a>
+            <button type="button" id="open-wechat" aria-label="Show WeChat QR code" aria-haspopup="dialog" aria-controls="wechat-modal">
+              <i class="fa-brands fa-weixin" aria-hidden="true"></i>
+              <span>WeChat</span>
+            </button>
+          </nav>
         </div>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2604.03540">
-          <span class="papertitle">Drift-Based Policy Optimization: Native One-Step Policy Learning for Online Robot Control</span>
-        </a>
-        <br>
-        Yuxuan Gao,
-        Yedong Shen,
-        Shiqi Zhang,
-        <strong>Wenhao Yu</strong>,
-        Yifan Duan,
-        Jia Pan,
-        Jiajia Wu,
-        Jiajun Deng*,
-        Yanyong Zhang*
-        <br>
-        <em>ACM MM</em>, 2026
-        <br>
-        <a href="https://github.com/YuxuanGao0822/DBPO">code</a>
-        /
-        <a href="https://arxiv.org/abs/2604.03540">arXiv</a>
-        <p></p>
-        <p>
-          DBPO shifts iterative refinement from inference to training for native one-step generative robot policies, enabling up to 100&times; faster inference and stable online policy optimization for high-frequency control.
-        </p>
-      </td>
-    </tr>
 
-    <tr class="media-row">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/sope/overview.png' width=100% alt="SoPE method overview" loading="lazy" decoding="async">
+        <figure class="portrait">
+          <img
+            src="images/me_self_800.jpg"
+            alt="Portrait of Wenhao Yu"
+            width="400"
+            height="400"
+            loading="eager"
+            decoding="async"
+            fetchpriority="high"
+          >
+          <figcaption>
+            <span>Hefei, China</span>
+            <span>AI &amp; Robotics</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="news" class="section" aria-labelledby="news-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Updates</p>
+            <h2 id="news-title">News</h2>
+          </div>
         </div>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Yip_SoPE_Spherical_Coordinate-Based_Positional_Embedding_for_Enhancing_Spatial_Perception_of_CVPR_2026_paper.pdf">
-          <span class="papertitle">SoPE: Spherical Coordinate-Based Positional Embedding for Enhancing Spatial Perception of 3D LVLMs</span>
-        </a>
-        <br>
-        Koonting Yip,
-        Qiyan Zhao,
-        <strong>Wenhao Yu</strong>,
-        Liangyu Yuan,
-        Mingkai Li,
-        Xiaofeng Zhang,
-        Jianmin Ji,
-        Yanyong Zhang,
-        Qing Jiang,
-        Ka-Veng Yuen*
-        <br>
-        <em>CVPR</em>, 2026
-        <br>
-        <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Yip_SoPE_Spherical_Coordinate-Based_Positional_Embedding_for_Enhancing_Spatial_Perception_of_CVPR_2026_paper.pdf">paper</a>
-        /
-        <a href="https://arxiv.org/abs/2602.22716">arXiv</a>
-        <p></p>
-        <p>
-          SoPE maps 3D tokens into spherical coordinates and mixes multi-scale frequencies to preserve geometry and direction, improving spatial perception in 3D LVLMs.
-        </p>
-      </td>
-    </tr>
 
-    <tr class="media-row">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/c2rope/overview.png' width=100% alt="C2RoPE method overview" loading="lazy" decoding="async">
+        <div class="news-list">
+          <article class="news-item">
+            <time datetime="2026-07">Jul 2026</time>
+            <p><strong>DBPO</strong> is accepted to ACM Multimedia 2026.</p>
+          </article>
+          <article class="news-item">
+            <time datetime="2026-02">Feb 2026</time>
+            <p>Our work on spherical positional embedding for 3D LVLMs is accepted to CVPR 2026.</p>
+          </article>
+          <article class="news-item">
+            <time datetime="2026-01">Jan 2026</time>
+            <p>Our work on causal continuous rotary positional encoding is accepted to ICRA 2026.</p>
+          </article>
+          <article class="news-item">
+            <time datetime="2025-12">Dec 2025</time>
+            <p>I am looking for research interns interested in embodied AI and machine learning. Please get in touch.</p>
+          </article>
+          <article class="news-item">
+            <time datetime="2025-07">Jul 2025</time>
+            <p><strong>CalibWorkflow</strong> is accepted to ACM Multimedia 2025.</p>
+          </article>
+          <article class="news-item">
+            <time datetime="2025-04">Apr 2025</time>
+            <p><strong>STDArm</strong> is accepted to RSS 2025.</p>
+          </article>
+          <article class="news-item">
+            <time datetime="2024-06">Jun 2024</time>
+            <p><strong>LDP</strong> is accepted to IROS 2024.</p>
+          </article>
+          <article class="news-item">
+            <time datetime="2024-01">Jan 2024</time>
+            <p><strong>PathRL</strong> is accepted to ICRA 2024.</p>
+          </article>
         </div>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2602.10551">
-          <span class="papertitle">C<sup>2</sup>RoPE: Causal Continuous Rotary Positional Encoding for 3D Large Multimodal-Models Reasoning</span>
-        </a>
-        <br>
-        Guanting Ye,
-        Qiyan Zhao,
-        <strong>Wenhao Yu</strong>,
-        Xiaofeng Zhang,
-        Jianmin Ji,
-        Yanyong Zhang,
-        Ka-Veng Yuen*
-        <br>
-        <em>ICRA</em>, 2026
-        <br>
-        <a href="https://github.com/KarnaYip/C2RoPE">code</a>
-        /
-        <a href="https://arxiv.org/abs/2602.10551">arXiv</a>
-        <p></p>
-        <p>
-          C<sup>2</sup>RoPE improves 3D multimodal reasoning by preserving spatio-temporal continuity in visual tokens and modeling spatial causal relations with Chebyshev causal masking.
-        </p>
-      </td>
-    </tr>
+      </section>
 
-    <tr class="media-row">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/dynahmrc/overview.png' width=100% loading="lazy" decoding="async">
+      <section id="publications" class="section" aria-labelledby="publications-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Research</p>
+            <h2 id="publications-title">Selected Publications</h2>
+          </div>
+          <p class="section-note">* Corresponding author</p>
         </div>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://dynahmrc.github.io">
-          <span class="papertitle">DynaHMRC: Decentralized Heterogeneous Multi-Robot Collaboration for Dynamic Tasks with Large Language Models</span>
-        </a>
-        <br>
-        <strong>Wenhao Yu</strong>,
-        Yu'ang Xie,
-        Yifan Duan,
-        Jie Peng,
-        Guanting Ye,
-        Ka-Veng Yuen,
-        Yanyong Zhang,
-        Jianmin Ji*
-        <br>
-        <em>arXiv</em>, 2026
-        <br>
-        <a href="https://dynahmrc.github.io">project page</a>
-        /
-        code
-        /
-        <a href="https://arxiv.org/abs/2606.14882">arXiv</a>
-        <p></p>
-        <p>
-          DynaHMRC is a decentralized, role-aware LLM framework that coordinates heterogeneous robot teams through leadership bidding, leader election, and reflective execution, adapting efficiently to dynamic tasks with fewer action and communication steps.
-        </p>
-      </td>
-    </tr>
 
-    <tr class="media-row">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src='images/calibworkflow/CalibWorkflow.png' width=100% loading="lazy" decoding="async">
+        <div class="publication-list">
+          <!-- Add new publication here -->
+          <article class="publication">
+            <div class="publication-media">
+              <img src="images/dbpo/overview.svg" alt="DBPO method comparison and performance overview" loading="lazy" decoding="async">
+            </div>
+            <div class="publication-copy">
+              <div class="publication-meta">
+                <span class="venue">ACM MM 2026</span>
+                <span class="topic">Robot Learning</span>
+              </div>
+              <h3>
+                <a href="https://arxiv.org/abs/2604.03540">Drift-Based Policy Optimization: Native One-Step Policy Learning for Online Robot Control</a>
+              </h3>
+              <p class="authors">
+                Yuxuan Gao, Yedong Shen, Shiqi Zhang, <strong>Wenhao Yu</strong>, Yifan Duan,
+                Jia Pan, Jiajia Wu, Jiajun Deng*, Yanyong Zhang*
+              </p>
+              <p class="summary">
+                DBPO shifts iterative refinement from inference to training for native one-step generative robot policies, enabling up to 100× faster inference and stable online policy optimization for high-frequency control.
+              </p>
+              <nav class="paper-links" aria-label="DBPO resources">
+                <a href="https://github.com/YuxuanGao0822/DBPO"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
+                <a href="https://arxiv.org/abs/2604.03540"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> arXiv</a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="publication-media">
+              <img src="images/sope/overview.png" alt="SoPE method overview" loading="lazy" decoding="async">
+            </div>
+            <div class="publication-copy">
+              <div class="publication-meta">
+                <span class="venue">CVPR 2026</span>
+                <span class="topic">3D Multimodal Learning</span>
+              </div>
+              <h3>
+                <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Yip_SoPE_Spherical_Coordinate-Based_Positional_Embedding_for_Enhancing_Spatial_Perception_of_CVPR_2026_paper.pdf">SoPE: Spherical Coordinate-Based Positional Embedding for Enhancing Spatial Perception of 3D LVLMs</a>
+              </h3>
+              <p class="authors">
+                Koonting Yip, Qiyan Zhao, <strong>Wenhao Yu</strong>, Liangyu Yuan, Mingkai Li,
+                Xiaofeng Zhang, Jianmin Ji, Yanyong Zhang, Qing Jiang, Ka-Veng Yuen*
+              </p>
+              <p class="summary">
+                SoPE maps 3D tokens into spherical coordinates and mixes multi-scale frequencies to preserve geometry and direction, improving spatial perception in 3D large vision-language models.
+              </p>
+              <nav class="paper-links" aria-label="SoPE resources">
+                <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Yip_SoPE_Spherical_Coordinate-Based_Positional_Embedding_for_Enhancing_Spatial_Perception_of_CVPR_2026_paper.pdf"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> Paper</a>
+                <a href="https://arxiv.org/abs/2602.22716"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> arXiv</a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="publication-media">
+              <img src="images/c2rope/overview.png" alt="C2RoPE method overview" loading="lazy" decoding="async">
+            </div>
+            <div class="publication-copy">
+              <div class="publication-meta">
+                <span class="venue">ICRA 2026</span>
+                <span class="topic">3D Multimodal Learning</span>
+              </div>
+              <h3>
+                <a href="https://arxiv.org/abs/2602.10551">C<sup>2</sup>RoPE: Causal Continuous Rotary Positional Encoding for 3D Large Multimodal-Models Reasoning</a>
+              </h3>
+              <p class="authors">
+                Guanting Ye, Qiyan Zhao, <strong>Wenhao Yu</strong>, Xiaofeng Zhang,
+                Jianmin Ji, Yanyong Zhang, Ka-Veng Yuen*
+              </p>
+              <p class="summary">
+                C<sup>2</sup>RoPE preserves spatio-temporal continuity in visual tokens and models spatial causal relations with Chebyshev causal masking to improve 3D multimodal reasoning.
+              </p>
+              <nav class="paper-links" aria-label="C2RoPE resources">
+                <a href="https://github.com/KarnaYip/C2RoPE"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
+                <a href="https://arxiv.org/abs/2602.10551"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> arXiv</a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="publication-media">
+              <img src="images/dynahmrc/overview.png" alt="DynaHMRC framework overview" loading="lazy" decoding="async">
+            </div>
+            <div class="publication-copy">
+              <div class="publication-meta">
+                <span class="venue">arXiv 2026</span>
+                <span class="topic">Multi-Robot Systems</span>
+              </div>
+              <h3>
+                <a href="https://dynahmrc.github.io">DynaHMRC: Decentralized Heterogeneous Multi-Robot Collaboration for Dynamic Tasks with Large Language Models</a>
+              </h3>
+              <p class="authors">
+                <strong>Wenhao Yu</strong>, Yu'ang Xie, Yifan Duan, Jie Peng, Guanting Ye,
+                Ka-Veng Yuen, Yanyong Zhang, Jianmin Ji*
+              </p>
+              <p class="summary">
+                DynaHMRC coordinates heterogeneous robot teams through leadership bidding, leader election, and reflective execution, adapting efficiently to dynamic tasks with fewer action and communication steps.
+              </p>
+              <nav class="paper-links" aria-label="DynaHMRC resources">
+                <a href="https://dynahmrc.github.io"><i class="fa-solid fa-globe" aria-hidden="true"></i> Project</a>
+                <a href="https://arxiv.org/abs/2606.14882"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> arXiv</a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="publication">
+            <div class="publication-media">
+              <img src="images/calibworkflow/CalibWorkflow.png" alt="CalibWorkflow framework overview" loading="lazy" decoding="async">
+            </div>
+            <div class="publication-copy">
+              <div class="publication-meta">
+                <span class="venue">ACM MM 2025</span>
+                <span class="topic">Sensor Calibration</span>
+              </div>
+              <h3>
+                <a href="https://dl.acm.org/doi/abs/10.1145/3746027.3755767">CalibWorkflow: A General MLLM-Guided Workflow for Centimeter-Level Cross-Sensor Calibration</a>
+              </h3>
+              <p class="authors">
+                Xingchen Li, Wuyang Zhang, Guoliang You, Xiaomeng Chu, <strong>Wenhao Yu</strong>,
+                Yifan Duan, Yuxuan Xiao, Yanyong Zhang*
+              </p>
+              <p class="summary">
+                CalibWorkflow uses multimodal large language models as visual guides to search, optimize, and refine parameters for robust, hardware-agnostic calibration across diverse sensors and environments.
+              </p>
+              <nav class="paper-links" aria-label="CalibWorkflow resources">
+                <a href="https://dl.acm.org/doi/abs/10.1145/3746027.3755767"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> Paper</a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="publication media-row">
+            <div class="publication-media">
+              <video muted loop preload="none" playsinline aria-hidden="true">
+                <source src="images/stdarm/STDarm.mp4" type="video/mp4">
+              </video>
+              <img src="images/stdarm/STDarm.png" alt="STDArm system overview" loading="lazy" decoding="async">
+            </div>
+            <div class="publication-copy">
+              <div class="publication-meta">
+                <span class="venue">RSS 2025</span>
+                <span class="topic">Robot Manipulation</span>
+              </div>
+              <h3>
+                <a href="https://arxiv.org/abs/2504.18792">STDArm: Transfer Visuomotor Policy From Static Data Training to Dynamic Robot Manipulation</a>
+              </h3>
+              <p class="authors">
+                Yifan Duan, Heng Li, Yilong Wu, <strong>Wenhao Yu</strong>, Xinran Zhang,
+                Yedong Shen, Jianmin Ji, Yanyong Zhang*
+              </p>
+              <p class="summary">
+                STDArm transfers static-trained visuomotor policies to dynamic robots, achieving precise and stable manipulation through real-time action correction without retraining.
+              </p>
+              <nav class="paper-links" aria-label="STDArm resources">
+                <a href="https://arxiv.org/abs/2504.18792"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> arXiv</a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="publication media-row">
+            <div class="publication-media">
+              <video muted loop preload="none" playsinline aria-hidden="true">
+                <source src="images/mhrc/mhrc_video.mp4" type="video/mp4">
+              </video>
+              <img src="images/mhrc/overview.png" alt="MHRC multi-robot collaboration overview" loading="lazy" decoding="async">
+            </div>
+            <div class="publication-copy">
+              <div class="publication-meta">
+                <span class="venue">arXiv 2024</span>
+                <span class="topic">Multi-Robot Systems</span>
+              </div>
+              <h3>
+                <a href="https://arxiv.org/abs/2409.16030">MHRC: Closed-loop Decentralized Multi-Heterogeneous Robot Collaboration with Large Language Models</a>
+              </h3>
+              <p class="authors">
+                <strong>Wenhao Yu</strong>, Jie Peng, Yueliang Ying, Sai Li, Jianmin Ji*, Yanyong Zhang
+              </p>
+              <p class="summary">
+                MHRC uses large language models to coordinate heterogeneous mobile, manipulation, and mobile-manipulation robots across collaborative real-world tasks.
+              </p>
+              <nav class="paper-links" aria-label="MHRC resources">
+                <a href="https://arxiv.org/abs/2409.16030"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> arXiv</a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="publication media-row">
+            <div class="publication-media">
+              <video muted loop preload="none" playsinline aria-hidden="true">
+                <source src="images/ldp/LDP_video.mp4" type="video/mp4">
+              </video>
+              <img src="images/ldp/ldp.png" alt="LDP navigation examples" loading="lazy" decoding="async">
+            </div>
+            <div class="publication-copy">
+              <div class="publication-meta">
+                <span class="venue">IROS 2024</span>
+                <span class="topic">Robot Navigation</span>
+              </div>
+              <h3>
+                <a href="https://arxiv.org/abs/2407.01950">LDP: A Local Diffusion Planner for Efficient Robot Navigation and Collision Avoidance</a>
+              </h3>
+              <p class="authors">
+                <strong>Wenhao Yu</strong>, Jie Peng, Huanyu Yang, Junrui Zhang, Yifan Duan,
+                Jianmin Ji*, Yanyong Zhang
+              </p>
+              <p class="summary">
+                LDP models multimodal expert policies with a diffusion model to produce efficient, preference-aware navigation paths across complex scenarios.
+              </p>
+              <nav class="paper-links" aria-label="LDP resources">
+                <a href="https://github.com/WenhaoYu1998/LDP"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
+                <a href="https://arxiv.org/abs/2407.01950"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> arXiv</a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="publication media-row">
+            <div class="publication-media">
+              <video muted loop preload="none" playsinline aria-hidden="true">
+                <source src="images/pathrl/PathRL_video.mp4" type="video/mp4">
+              </video>
+              <img src="images/pathrl/overview.png" alt="PathRL planning examples" loading="lazy" decoding="async">
+            </div>
+            <div class="publication-copy">
+              <div class="publication-meta">
+                <span class="venue">ICRA 2024</span>
+                <span class="topic">Robot Navigation</span>
+              </div>
+              <h3>
+                <a href="https://arxiv.org/abs/2310.13295">PathRL: An End-to-End Path Generation Method for Collision Avoidance via Deep Reinforcement Learning</a>
+              </h3>
+              <p class="authors">
+                <strong>Wenhao Yu</strong>, Jie Peng, Quecheng Qiu, Hanyu Wang, Lu Zhang, Jianmin Ji*
+              </p>
+              <p class="summary">
+                PathRL directly generates collision-free navigation paths with deep reinforcement learning, avoiding supervised imitation while generalizing to varied complex scenarios.
+              </p>
+              <nav class="paper-links" aria-label="PathRL resources">
+                <a href="https://arxiv.org/abs/2310.13295"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> arXiv</a>
+              </nav>
+            </div>
+          </article>
         </div>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://dl.acm.org/doi/abs/10.1145/3746027.3755767">
-          <span class="papertitle">CalibWorkflow: A General MLLM-Guided Workflow for Centimeter-Level Cross-Sensor Calibration</span>
-        </a>
-        <br>
-        Xingchen Li,
-        Wuyang Zhang,
-        Guoliang You,
-        Xiaomeng Chu,
-        <strong>Wenhao Yu</strong>,
-        Yifan Duan,
-        Yuxuan Xiao,
-        Yanyong Zhang*,
-        <br>
-        <em>ACM MM</em>, 2025
-        <br>
-        project page
-        /
-        code
-        /
-        <a href="https://dl.acm.org/doi/abs/10.1145/3746027.3755767">paper</a>
-        <p></p>
-        <p>
-          CalibWorkflow is a generalizable extrinsic calibration framework that uses MLLMs as visual guides to search, optimize, and refine parameters, enabling robust, hardware-agnostic calibration across diverse sensors and environments.
-        </p>
-      </td>
-    </tr>
-    
-    <tr class="media-row">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two"><video width=100% muted autoplay loop preload="none" playsinline>
-          <source src="images/stdarm/STDarm.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/stdarm/STDarm.png' width=100% loading="lazy" decoding="async">
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Engineering</p>
+            <h2 id="projects-title">Projects</h2>
+          </div>
         </div>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2504.18792">
-          <span class="papertitle">STDArm: Transfer Visuomotor Policy From Static Data Training to Dynamic Robot Manipulation</span>
-        </a>
-        <br>
-        Yifan Duan,
-        Heng Li,
-        Yilong Wu,
-        <strong>Wenhao Yu</strong>,
-        Xinran Zhang,
-        Yedong Shen,
-        Jianmin Ji,
-        Yanyong Zhang*,
-        <br>
-        <em>RSS</em>, 2025
-        <br>
-        project page
-        /
-        code
-        /
-        <a href="https://arxiv.org/abs/2504.18792">arXiv</a>
-        <p></p>
-        <p>
-          This paper presents STDArm, a system that transfers static-trained visuomotor policies to dynamic robots, achieving precise and stable manipulation through real-time action correction without retraining.
-        </p>
-      </td>
-    </tr>
 
-    <tr class="media-row">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two"><video width=100% muted autoplay loop preload="none" playsinline>
-          <source src="images/mhrc/mhrc_video.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/mhrc/overview.png' width=100% loading="lazy" decoding="async">
+        <article class="project media-row">
+          <div class="publication-media">
+            <video muted loop preload="none" playsinline aria-hidden="true">
+              <source src="file/real_video.mp4" type="video/mp4">
+            </video>
+            <img src="file/real_video.png" alt="A collection of real robotic systems" loading="lazy" decoding="async">
+          </div>
+          <div class="publication-copy">
+            <div class="publication-meta">
+              <span class="topic">Robotics Systems</span>
+            </div>
+            <h3><a href="file/real_video.mp4">Building Real-World Robotic Systems</a></h3>
+            <p class="authors"><strong>Wenhao Yu</strong></p>
+            <p class="summary">
+              I build and deploy robot decision-making and planning systems on differential-drive,
+              Ackermann-steering, logistics, and passenger vehicle platforms.
+            </p>
+            <nav class="paper-links" aria-label="Robotic systems project resources">
+              <a href="file/real_video.mp4"><i class="fa-regular fa-circle-play" aria-hidden="true"></i> Demo</a>
+              <a href="file/resume25.pdf"><i class="fa-regular fa-file-lines" aria-hidden="true"></i> CV</a>
+            </nav>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="page-shell footer-inner">
+        <p>© 2026 Wenhao Yu</p>
+        <p>Academic template inspired by <a href="https://jonbarron.info/">Jon Barron</a>.</p>
+      </div>
+    </footer>
+
+    <div id="wechat-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="wechat-title" aria-hidden="true">
+      <div class="modal-panel">
+        <div class="modal-heading">
+          <div>
+            <p class="section-kicker">Connect</p>
+            <h2 id="wechat-title">WeChat</h2>
+          </div>
+          <button type="button" class="modal-close" aria-label="Close WeChat QR code">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+          </button>
         </div>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2409.16030/">
-          <span class="papertitle">MHRC: Closed-loop Decentralized Multi-Heterogeneous Robot Collaboration with Large Language Models</span>
-        </a>
-        <br>
-        <strong>Wenhao Yu</strong>,
-        Jie Peng,
-        Yueliang Ying,
-        Sai Li,
-        Jianmin Ji*,
-        Yanyong Zhang,
-        <br>
-        <em>arXiv</em>, 2409.16030
-        <br>
-        project page
-        /
-        code
-        /
-        <a href="https://arxiv.org/abs/2409.16030">arXiv</a>
-        <p></p>
-        <p>
-          LLMs are used to realize the collaboration of multiple heterogeneous robots (mobile robot, manipulation robot, and mobile manipulation robot), including three tasks: make sandwich, sort solids, and pack objects.
-        </p>
-      </td>
-    </tr>
+        <img src="images/wechat.jpg" alt="Wenhao Yu's WeChat QR code" loading="lazy" decoding="async">
+      </div>
+    </div>
 
-    <tr class="media-row">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two"><video width=100% muted autoplay loop preload="none" playsinline>
-          <source src="images/ldp/LDP_video.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/ldp/ldp.png' width=100% loading="lazy" decoding="async">
-        </div>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2407.01950/">
-          <span class="papertitle">LDP: A Local Diffusion Planner for Efficient Robot Navigation and Collision Avoidance</span>
-        </a>
-        <br>
-        <strong>Wenhao Yu</strong>,
-        Jie Peng,
-        Huanyu Yang,
-        Junrui Zhang,
-        Yifan Duan,
-        Jianmin Ji*,
-        Yanyong Zhang,
-        <br>
-        <em>IROS</em>, 2024
-        <br>
-        project page
-        /
-        <a href="https://github.com/WenhaoYu1998/LDP">code</a>
-        /
-        <a href="https://arxiv.org/abs/2407.01950">arXiv</a>
-        <p></p>
-        <p>
-          Model the multi-modal expert policy distribution with multiple scenarios and preferences by diffusion model for robot navigation and collision avoidance.
-        </p>
-      </td>
-    </tr>
-
-    <tr class="media-row">
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <div class="two"><video width=100% muted autoplay loop preload="none" playsinline>
-          <source src="images/pathrl/PathRL_video.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/pathrl/overview.png' width=100% loading="lazy" decoding="async">
-        </div>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2310.13295/">
-          <span class="papertitle">PathRL: An End-to-End Path Generation Method for Collision Avoidance via Deep Reinforcement Learning</span>
-        </a>
-        <br>
-        <strong>Wenhao Yu</strong>,
-        Jie Peng,
-        Quecheng Qiu,
-        Hanyu Wang,
-        Lu Zhang,
-        Jianmin Ji*,
-        <br>
-        <em>ICRA</em>, 2024
-        <br>
-        project page
-        /
-        code
-        /
-        <a href="https://arxiv.org/abs/2310.13295">arXiv</a>
-        <p></p>
-        <p>
-          a novel end-to-end DRL-based method, PathRL, that directly outputs navigation paths without relying on the supervised learning paradigm and is competent for a variety of complex scenarios.
-        </p>
-      </td>
-    </tr>
-
-  </tbody></table>
-
-          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-            <tr>
-              <td>
-                <h2>Projects</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-          
-            <tr class="media-row">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <div class="two"><video width=100% muted autoplay loop preload="none" playsinline>
-                  <source src="file/real_video.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                  </video></div>
-                  <img src='file/real_video.png' width=100% loading="lazy" decoding="async">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="file/real_video.mp4">
-                  <span class="papertitle">Build different types of real robotics systems</span>
-                </a>
-                <br>
-                <strong>Wenhao Yu</strong>
-                <br>
-                <p></p>
-                <p>
-                  Build and deploy robot decision-making and planning systems on different types of mobile chassis, including differential chassis, Ackerman chassis, logistics vehicles, passenger cars, etc. For more details please refer to my <a href="file/resume25.pdf">resume</a>.
-                </p>
-              </td>
-            </tr>        
-            
-          </tbody></table>
-          
-          <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-            <tr>
-              <td>
-                <h2>Miscellanea</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-            
-            
-          </tbody></table> -->
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  The website template is adapted from <a href="https://jonbarron.info/">Jon Barron's website</a>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </table>
     <script>
       (function () {
-        var modal = document.getElementById("WeChatModal");
-        var openBtn = document.getElementById("open-wechat");
-        var closeBtn = modal ? modal.querySelector(".close") : null;
+        var modal = document.getElementById("wechat-modal");
+        var openButton = document.getElementById("open-wechat");
+        var closeButton = modal ? modal.querySelector(".modal-close") : null;
+        var lastFocusedElement = null;
 
         function openWeChatModal() {
-          if (modal) modal.style.display = "block";
+          if (!modal) return;
+          lastFocusedElement = document.activeElement;
+          modal.classList.add("is-open");
+          modal.setAttribute("aria-hidden", "false");
+          document.body.classList.add("modal-open");
+          if (closeButton) closeButton.focus();
         }
 
         function closeWeChatModal() {
-          if (modal) modal.style.display = "none";
+          if (!modal) return;
+          modal.classList.remove("is-open");
+          modal.setAttribute("aria-hidden", "true");
+          document.body.classList.remove("modal-open");
+          if (lastFocusedElement) lastFocusedElement.focus();
         }
 
-        if (openBtn) {
-          openBtn.addEventListener("click", openWeChatModal);
-        }
+        if (openButton) openButton.addEventListener("click", openWeChatModal);
+        if (closeButton) closeButton.addEventListener("click", closeWeChatModal);
 
-        if (closeBtn) {
-          closeBtn.addEventListener("click", closeWeChatModal);
+        if (modal) {
+          modal.addEventListener("click", function (event) {
+            if (event.target === modal) closeWeChatModal();
+          });
         }
-
-        document.addEventListener("click", function (event) {
-          if (event.target === modal) {
-            closeWeChatModal();
-          }
-        });
 
         document.addEventListener("keydown", function (event) {
-          if (event.key === "Escape") {
+          if (event.key === "Escape" && modal && modal.classList.contains("is-open")) {
             closeWeChatModal();
           }
         });
 
-        var rows = document.querySelectorAll(".media-row");
-        rows.forEach(function (row) {
-          var video = row.querySelector(".two video");
+        document.querySelectorAll(".media-row").forEach(function (row) {
+          var video = row.querySelector("video");
           if (!video) return;
 
           function playVideo() {
@@ -519,7 +509,6 @@
           row.addEventListener("mouseleave", pauseVideo);
           row.addEventListener("focusin", playVideo);
           row.addEventListener("focusout", pauseVideo);
-
           pauseVideo();
         });
       })();
