@@ -83,6 +83,20 @@ a:hover {
   color: #f09228;
 }
 
+.icon-definitions {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.news-celebration {
+  width: 1.15em;
+  height: 1.15em;
+  margin-left: 0.15em;
+  vertical-align: -0.2em;
+}
+
 body,
 td,
 th,
