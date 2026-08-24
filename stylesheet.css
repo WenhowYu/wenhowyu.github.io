@@ -74,13 +74,34 @@ a:hover {
   text-decoration: none;
 }
 
-#open-wechat {
-  color: #1772d0;
+.profile-links {
+  text-align: center;
 }
 
-#open-wechat:hover,
-#open-wechat:focus {
+.profile-link-button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #1772d0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.profile-link-button:hover,
+.profile-link-button:focus {
   color: #f09228;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .icon-definitions {
